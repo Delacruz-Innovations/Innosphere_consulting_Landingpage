@@ -17,18 +17,18 @@ const VariationThree = () => {
 
             {/* Navigation */}
             <nav className="w-full border-b border-white/20 sticky top-0 z-40 bg-black/90 backdrop-blur-md">
-                <div className="max-w-[1400px] mx-auto px-6 lg:px-12 h-20 flex items-center justify-between font-sans">
-                    <div className="flex items-center gap-4">
-                        <img src="/assets/logo1.png" alt="Innosphere Logo" className="h-12 w-auto object-contain opacity-90" />
+                <div className="max-w-[1400px] mx-auto px-4 md:px-6 lg:px-12 h-20 flex items-center justify-between font-sans">
+                    <div className="flex items-center gap-2 md:gap-4">
+                        <img src="/assets/logo1.png" alt="Innosphere Logo" className="h-8 md:h-12 w-auto object-contain opacity-90" />
                         <div className="flex flex-col justify-center">
-                            <span className="font-bold text-[18px] leading-[1.1] tracking-[0.15em] uppercase text-white">Innosphere</span>
-                            <span className="font-bold text-[18px] leading-[1.1] tracking-[0.15em] uppercase text-white">Consulting</span>
-                            <span className="text-[10px] tracking-[0.25em] font-medium text-white/70 mt-1 uppercase">FZE | LLC</span>
+                            <span className="font-bold text-[13px] md:text-[18px] leading-[1.1] tracking-[0.15em] uppercase text-white">Innosphere</span>
+                            <span className="font-bold text-[13px] md:text-[18px] leading-[1.1] tracking-[0.15em] uppercase text-white">Consulting</span>
+                            <span className="text-[8px] md:text-[10px] tracking-[0.25em] font-medium text-white/70 mt-0.5 md:mt-1 uppercase">FZE | LLC</span>
                         </div>
                     </div>
                     <CalendlyPopup
                         buttonText="Free 1hour audit"
-                        className="border border-white hover:bg-white hover:text-black px-6 py-2 text-sm font-semibold tracking-widest uppercase transition-colors"
+                        className="border border-white hover:bg-white hover:text-black px-3 md:px-6 py-1.5 md:py-2 text-[10px] md:text-xs font-semibold tracking-widest uppercase transition-colors shrink-0"
                     />
                 </div>
             </nav>
