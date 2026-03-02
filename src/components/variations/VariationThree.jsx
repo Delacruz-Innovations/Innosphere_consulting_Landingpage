@@ -12,7 +12,7 @@ const VariationThree = () => {
             <CalendlyPopup
                 fixed
                 buttonText="Free 1hour audit →"
-                className="bg-white text-black shadow-2xl shadow-white/10 px-6 md:px-8 py-4 md:py-5 rounded-none font-bold tracking-widest flex items-center border border-transparent hover:border-white/50 hover:bg-black hover:text-white uppercase text-xs transition-colors duration-300"
+                className="bg-white text-black shadow-2xl shadow-white/10 px-6 md:px-8 py-2 md:py-2 rounded-none font-bold tracking-widest flex items-center border border-transparent hover:border-white/50 hover:bg-black hover:text-white uppercase text-xs transition-colors duration-300"
             />
 
             {/* Navigation */}
@@ -34,7 +34,7 @@ const VariationThree = () => {
             </nav>
 
             {/* Hero Section */}
-            <section className="pt-8 pb-8 px-6 lg:px-12 max-w-[1400px] mx-auto border-b border-white/20 flex flex-col md:flex-row gap-4 items-end">
+            <section className="pt-8 pb-3 px-6 lg:px-12 max-w-[1400px] mx-auto border-b border-white/20 flex flex-col md:flex-row gap-4 items-end">
                 <div className="flex-1">
                     <div className="flex items-center gap-4 mb-4 font-sans text-sm tracking-widest uppercase text-white/60">
                         <span className="w-8 h-px bg-white/60"></span>
@@ -45,13 +45,13 @@ const VariationThree = () => {
                     </h1>
                 </div>
                 <div className="flex-1 pb-4">
-                    <p className="font-sans text-xl md:text-2xl font-light leading-relaxed text-white/80 mb-12 max-w-2xl">
+                    <p className="font-sans text-xl md:text-2xl font-light leading-relaxed text-white/80 mb-2 max-w-2xl">
                         Innosphere Consulting helps UAE businesses access experienced consulting expertise without layers, long timelines, or unnecessary complexity  delivering clarity, strategy, and execution that moves at your business pace.
                     </p>
                     <div className="space-y-4">
                         <CalendlyPopup
                             buttonText="👉 Book Your AI & Digital Transformation Diagnostic"
-                            className="bg-white text-black font-bold font-sans text-lg px-8 py-5 hover:bg-white/90 transition-colors w-full md:w-auto uppercase tracking-wider block text-center"
+                            className="bg-white text-black font-bold font-sans text-lg px-4 py-2 hover:bg-white/90 transition-colors w-full md:w-auto uppercase tracking-wider block text-center"
                         />
                         <p className="font-sans text-sm tracking-widest uppercase text-white/50">(Limited March availability)</p>
                     </div>
@@ -62,7 +62,7 @@ const VariationThree = () => {
             </section>
 
             {/* Context Strip */}
-            <section className="py-6 px-6 lg:px-12 max-w-[1400px] mx-auto border-b border-white/20">
+            <section className="py-2 px-6 lg:px-12 max-w-[1400px] mx-auto border-b border-white/20">
                 <p className="font-sans text-2xl md:text-4xl font-light tracking-tight text-white/90 text-center uppercase">
                     A modern consulting experience for organisations navigating AI, automation, and digital transformation.
                 </p>
@@ -77,10 +77,10 @@ const VariationThree = () => {
 
             {/* Problem & Positioning Grid Side-by-Side */}
             <section className="px-6 lg:px-12 max-w-[1400px] mx-auto border-b border-white/20 grid lg:grid-cols-2 divide-y lg:divide-y-0 lg:divide-x divide-white/20">
-                <div className="py-6 lg:pr-16">
-                    <h2 className="text-5xl md:text-6xl tracking-tight mb-12">The traditional consulting model wasn’t built for modern business speed.</h2>
-                    <p className="font-sans text-xl text-white/60 mb-12">Many organisations exploring digital transformation or AI adoption encounter:</p>
-                    <ul className="space-y-6 font-sans text-lg text-white/80 mb-16 border-l border-white/20 pl-8">
+                <div className="py-2 lg:pr-16">
+                    <h2 className="text-5xl md:text-6xl tracking-tight mb-2">The traditional consulting model wasn’t built for modern business speed.</h2>
+                    <p className="font-sans text-xl text-white/60 mb-2">Many organisations exploring digital transformation or AI adoption encounter:</p>
+                    <ul className="space-y-6 font-sans text-lg text-white/80 mb-4 border-l border-white/20 pl-8">
                         <li>Extended discovery timelines</li>
                         <li>Layered communication structures</li>
                         <li>Strategy that remains theoretical</li>
@@ -92,9 +92,9 @@ const VariationThree = () => {
                     </p>
                 </div>
 
-                <div className="py-6 lg:pl-16">
+                <div className="py-2 lg:pl-16">
                     <h2 className="text-5xl md:text-6xl tracking-tight mb-4">A more direct consulting experience</h2>
-                    <p className="font-sans text-xl text-white/60 mb-12 leading-relaxed">
+                    <p className="font-sans text-xl text-white/60 mb-2 leading-relaxed">
                         Innosphere Consulting was created with a different delivery philosophy. You gain access to experienced consultants who understand enterprise delivery  but engage in a way that prioritises:
                     </p>
                     <div className="font-sans grid sm:grid-cols-2 gap-2 md:gap-8 mb-4">
@@ -126,13 +126,13 @@ const VariationThree = () => {
             </section>
 
             {/* Credibility Narrative */}
-            <section className="py-6 px-6 lg:px-12 max-w-4xl mx-auto text-center border-b border-white/20">
-                <h2 className="text-5xl md:text-6xl tracking-tight mb-16">Built from experience. <br /><span className="italic text-white/50">Designed for modern business pace.</span></h2>
+            <section className="py-2 px-6 lg:px-12 max-w-4xl mx-auto text-center border-b border-white/20">
+                <h2 className="text-5xl md:text-6xl tracking-tight mb-4">Built from experience. <br /><span className="italic text-white/50">Designed for modern business pace.</span></h2>
                 <div className="font-sans text-xl font-light text-white/70 leading-relaxed space-y-8 text-left max-w-2xl mx-auto">
                     <p>Innosphere Consulting was not created from theory. It was shaped by firsthand exposure to how strategy is developed and delivered across structured consulting environments and digital transformation initiatives.</p>
                     <p>Over time, one observation became clear  while traditional consulting brings depth and rigour, the model itself can sometimes slow momentum for organisations that need clarity sooner.</p>
                     <p>Layers of communication, extended discovery phases, and delayed implementation often create a gap between insight and action.</p>
-                    <p className="font-serif text-3xl text-white tracking-tight my-12 text-center italic">Innosphere was founded to close that gap.</p>
+                    <p className="font-serif text-3xl text-white tracking-tight my-4 text-center italic">Innosphere was founded to close that gap.</p>
                     <p>Our consultants bring experience shaped within consulting ecosystems, product delivery environments, and transformation programmes. That perspective informs how we approach every engagement  with structured thinking, practical delivery awareness, and a clear focus on outcomes.</p>
                 </div>
             </section>
@@ -140,12 +140,12 @@ const VariationThree = () => {
             {/* Offer & Ideal Client */}
             <section className="px-6 lg:px-12 max-w-[1400px] mx-auto border-b border-white/20">
                 <div className="grid md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-white/20">
-                    <div className="py-6 md:pr-16">
+                    <div className="py-2 md:pr-16">
                         <h3 className="font-sans text-sm tracking-widest uppercase text-white/50 mb-8">The Offer</h3>
                         <h4 className="text-5xl tracking-tight mb-8">AI & Digital Transformation Diagnostic</h4>
                         <p className="font-sans text-xl font-light text-white/70 mb-6">A focused engagement designed to help you understand where your business stands and what actions will create meaningful impact.</p>
                         <p className="font-sans font-bold text-lg text-white mb-6 uppercase tracking-wider">During your session, we will:</p>
-                        <ul className="font-sans text-lg text-white/70 space-y-4 mb-16 border-l border-white/20 pl-6">
+                        <ul className="font-sans text-lg text-white/70 space-y-4 mb-4 border-l border-white/20 pl-6">
                             <li>• Assess current systems and workflows</li>
                             <li>• Identify automation opportunities</li>
                             <li>• Map AI use cases relevant to your operations</li>
@@ -160,24 +160,24 @@ const VariationThree = () => {
                             />
                         </div>
                     </div>
-                    <div className="py-6 md:pl-16">
-                        <h3 className="font-sans text-sm tracking-widest uppercase text-white/50 mb-8">Ideal Client</h3>
-                        <h4 className="text-5xl tracking-tight mb-12">Who this is for</h4>
-                        <div className="font-sans text-xl text-white/80 space-y-8 font-light">
-                            <p className="border-b border-white/10 pb-8"><strong className="font-bold text-white uppercase tracking-wider block mb-2 text-sm">Founders</strong> scaling operations</p>
-                            <p className="border-b border-white/10 pb-8"><strong className="font-bold text-white uppercase tracking-wider block mb-2 text-sm">SMEs</strong> exploring automation and AI</p>
-                            <p className="border-b border-white/10 pb-8"><strong className="font-bold text-white uppercase tracking-wider block mb-2 text-sm">Leadership teams</strong> modernising internal systems</p>
-                            <p className="border-b border-white/10 pb-8"><strong className="font-bold text-white uppercase tracking-wider block mb-2 text-sm">Innovation teams</strong> validating digital strategy</p>
-                            <p className="pb-8"><strong className="font-bold text-white uppercase tracking-wider block mb-2 text-sm">Businesses</strong> seeking clarity before major technology investments</p>
+                    <div className="py-2 md:pl-16">
+                        <h3 className="font-sans text-sm tracking-widest uppercase text-white/50 mb-4">Ideal Client</h3>
+                        <h4 className="text-5xl tracking-tight mb-2">Who this is for</h4>
+                        <div className="font-sans text-xl text-white/80 space-y-2 font-light">
+                            <p className="border-b border-white/10 pb-3"><strong className="font-bold text-white uppercase tracking-wider block mb-2 text-sm">Founders</strong> scaling operations</p>
+                            <p className="border-b border-white/10 pb-3"><strong className="font-bold text-white uppercase tracking-wider block mb-2 text-sm">SMEs</strong> exploring automation and AI</p>
+                            <p className="border-b border-white/10 pb-3"><strong className="font-bold text-white uppercase tracking-wider block mb-2 text-sm">Leadership teams</strong> modernising internal systems</p>
+                            <p className="border-b border-white/10 pb-3"><strong className="font-bold text-white uppercase tracking-wider block mb-2 text-sm">Innovation teams</strong> validating digital strategy</p>
+                            <p className="pb-3"><strong className="font-bold text-white uppercase tracking-wider block mb-2 text-sm">Businesses</strong> seeking clarity before major technology investments</p>
                         </div>
                     </div>
                 </div>
             </section>
 
             {/* Differentiation Section */}
-            <section className="py-6 px-6 lg:px-12 max-w-[1400px] mx-auto border-b border-white/20">
+            <section className="py-2 px-6 lg:px-12 max-w-[1400px] mx-auto border-b border-white/20">
                 <h2 className="text-center text-5xl md:text-7xl tracking-tight mb-6">Why businesses choose <br /><span className="italic text-white/50">Innosphere</span></h2>
-                <div className="grid md:grid-cols-4 gap-12 font-sans">
+                <div className="grid md:grid-cols-4 gap-3 font-sans">
                     <div className="border-t-2 border-white pt-4">
                         <h4 className="font-bold text-xl uppercase tracking-wider mb-2">Enterprise-informed perspective</h4>
                         <p className="text-white/60 font-light leading-relaxed">Consulting thinking shaped within structured delivery environments.</p>
@@ -198,10 +198,10 @@ const VariationThree = () => {
             </section>
 
             {/* Consulting Philosophy Section */}
-            <section className="py-6 px-6 lg:px-12 max-w-4xl mx-auto border-b border-white/20 text-center">
+            <section className="py-2 px-6 lg:px-12 max-w-4xl mx-auto border-b border-white/20 text-center">
                 <h3 className="font-sans text-sm tracking-widest uppercase text-white/50 mb-8">Consulting Philosophy</h3>
                 <h4 className="text-5xl tracking-tight mb-6">From presentation to implementation</h4>
-                <div className="font-sans text-xl font-light text-white/70 leading-relaxed space-y-8 max-w-2xl mx-auto mb-16">
+                <div className="font-sans text-xl font-light text-white/70 leading-relaxed space-y-8 max-w-2xl mx-auto mb-4">
                     <p>We’ve seen how valuable consulting insight can be  and also how easily it can remain in presentation form.</p>
                     <p>At Innosphere, our goal is to ensure clarity translates into movement. That means strategies that consider operational realities, technology ecosystems, and organisational readiness.</p>
                 </div>
@@ -211,26 +211,26 @@ const VariationThree = () => {
             </section>
 
             {/* Founder Note */}
-            <section className="py-6 px-6 lg:px-12 max-w-[1400px] mx-auto border-b border-white/20 flex flex-col items-center">
+            <section className="py-2 px-6 lg:px-12 max-w-[1400px] mx-auto border-b border-white/20 flex flex-col items-center">
                 <div className="w-64 h-64 bg-white/5 rounded-full flex items-center justify-center mb-4 border border-white/20 overflow-hidden grayscale">
                     <span className="font-sans text-xs tracking-widest text-white/30 uppercase">INNOSPHERE CONSULTING Founder</span>
                 </div>
                 <div className="max-w-3xl text-center">
-                    <p className="font-sans text-2xl font-light leading-relaxed text-white/90 mb-12 italic">
+                    <p className="font-sans text-2xl font-light leading-relaxed text-white/90 mb-2 italic">
                         "I’ve seen how valuable consulting can be  and also how slow and layered it can become. Innosphere was created to offer a more direct experience. The same depth of thinking, delivered with greater accessibility, speed, and practicality. If you’re navigating digital transformation or AI adoption, this conversation is a meaningful place to begin."
                     </p>
                 </div>
             </section>
 
             {/* CTA SECTION */}
-            <section id="booking-section" className="py-6 px-6 lg:px-12 max-w-[1400px] mx-auto border-b border-white/20">
+            <section id="booking-section" className="py-2 px-6 lg:px-12 max-w-[1400px] mx-auto border-b border-white/20">
                 <div className="max-w-4xl mx-auto text-center">
                     <h2 className="text-6xl tracking-tight leading-tight mb-8">If you’re exploring AI or digital transformation in 2026, <span className="italic text-white/50">start with clarity.</span></h2>
-                    <p className="font-sans text-xl text-white/60 font-light leading-relaxed mb-12">The diagnostic session provides a structured starting point to help you make informed decisions before committing to larger initiatives.</p>
-                    <div className="flex justify-center mb-12">
+                    <p className="font-sans text-xl text-white/60 font-light leading-relaxed mb-2">The diagnostic session provides a structured starting point to help you make informed decisions before committing to larger initiatives.</p>
+                    <div className="flex justify-center mb-2">
                         <CalendlyPopup
                             buttonText="👉 Book Your Free 1hour Consulation."
-                            className="bg-white text-black font-sans text-xl tracking-wider uppercase font-bold px-12 py-6 hover:bg-white/80 transition-colors"
+                            className="bg-white text-black font-sans text-xl tracking-wider uppercase font-bold px-12 py-2 hover:bg-white/80 transition-colors"
                         />
                     </div>
                 </div>
