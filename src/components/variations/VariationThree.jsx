@@ -152,11 +152,11 @@ const VariationThree = () => {
                             <li>• Highlight inefficiencies slowing growth</li>
                             <li>• Provide a structured 30-day action roadmap</li>
                         </ul>
-                        <div className="border border-white/20 p-8 pt-10">
+                        <div className=" p-8 pt-10">
                             <p className="text-3xl italic tracking-tight mb-8">Outcome: Direction, not just discussion.</p>
                             <CalendlyPopup
                                 buttonText="👉 Secure your March diagnostic session"
-                                className="bg-white text-black font-sans font-bold text-lg px-8 py-4 w-full uppercase tracking-widest hover:bg-white/80 transition-colors block text-center"
+                                className="bg-white text-black font-sans font-bold text-sm md:text-lg px-8 py-4 w-full uppercase tracking-widest hover:bg-white/80 transition-colors block text-center"
                             />
                         </div>
                     </div>
@@ -230,7 +230,7 @@ const VariationThree = () => {
                     <div className="flex justify-center mb-2">
                         <CalendlyPopup
                             buttonText="👉 Book Your Free 1hour Consulation."
-                            className="bg-white text-black font-sans text-xl tracking-wider uppercase font-bold px-12 py-2 hover:bg-white/80 transition-colors"
+                            className="bg-white text-black font-sans text-sm md:text-xl tracking-wider uppercase font-bold px-12 py-2 hover:bg-white/80 transition-colors"
                         />
                     </div>
                 </div>
